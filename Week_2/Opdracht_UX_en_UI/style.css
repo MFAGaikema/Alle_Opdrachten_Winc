@@ -1,0 +1,36 @@
+body {
+    background-color: brown;
+    color: white;
+    font-family: 'Righteous', cursive, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding-left: 40px;
+    
+    }
+
+li {
+    font-size: 20px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.layout {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 5px;
+    padding-bottom: 20px;
+    
+}
+
+ul {
+    border-top: solid grey 2px;
+    border-right: solid grey 2px;
+    margin-right: 10px;
+    margin-top: 0px;
+    width: 800px;
+}
+
+img {
+    min-width: 800px;
+}
