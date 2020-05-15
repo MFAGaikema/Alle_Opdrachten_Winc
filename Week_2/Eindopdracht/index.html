@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movie database</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script defer type="text/javascript" src="script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>WINC MOVIEBASE</h1>
+    </header>
+
+    <nav class="filter">
+      <ul class="buttons">
+        <li>
+          <input
+            id="searchbar"
+            type="text"
+            name="searchbar"
+            placeholder="SEARCH"
+          />
+        </li>
+        <li id="new-movies">
+          <input type="radio" name="movies" />
+          <label for="new-movies">Nieuwe releases (vanaf 2014)</label>
+        </li>
+        <li id="avengers" class="filter-title">
+          <input type="radio" name="movies" />
+          <label for="avengers">Avengers</label>
+        </li>
+        <li id="x-men" class="filter-title">
+          <input type="radio" name="movies" /> <label for="x-men">X-men</label>
+        </li>
+        <li id="princess" class="filter-title">
+          <input type="radio" name="movies" />
+          <label for="princess">Princess</label>
+        </li>
+        <li id="batman" class="filter-title">
+          <input type="radio" name="movies" />
+          <label for="batman">Batman</label>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="list-of-movies"></div>
+    </main>
+    <style src="script.js"></style>
+  </body>
+</html>

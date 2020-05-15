@@ -135,7 +135,7 @@ const totalWeightDc = superheroes.filter(marvelHeroes => {
     return marvelHeroes.publisher == "DC Comics"}).map(weightHeroesDc => {
         return weightHeroesDc.weight}).map(weightDcstr => {
             return parseInt(weightDcstr, 10)}).reduce((startWeight, weight) => {
-                return weight + startWeight})
+                return weight + startWeight});
 console.log(totalWeightDc)
 
 // 7 gewicht bij elkaar optellen Marvel
@@ -144,7 +144,7 @@ const totalWeightMarvel = superheroes.filter(marvelHeroes => {
         return weightMarvelStr.weight}).map(weightMarvelNum => {
             return parseInt(weightMarvelNum, 10)}).filter(num => {
                 return num >=0}).reduce((startWeight, weight) => {
-                    return weight + startWeight})
+                    return weight + startWeight});
 console.log(totalWeightMarvel)
 
 //8 Bonus: heaviest hero!
