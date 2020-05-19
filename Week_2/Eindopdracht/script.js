@@ -301,7 +301,6 @@ const addMovies = (mov) => {
 };
 
 //Alle films
-const buttonAllMovies = document.querySelector("#all-movies");
 const searchMoviesAll = () => {
   empty(), addMovies(movies);
 };
