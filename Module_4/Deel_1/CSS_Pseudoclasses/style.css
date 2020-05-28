@@ -1,0 +1,40 @@
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 0;
+    background-color: darkblue;
+}
+
+li:hover {
+    background-color: lightblue;
+}
+
+li:first-child {
+    color: lightblue;
+    font-weight: bold;    
+}
+
+li:nth-child(2) {
+    color: red;
+    font-style: italic;
+}
+
+li:nth-child(3) {
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;   
+}
+
+input:focus {    
+    color: green;
+    font-size: 20px;    
+}
+
+.current-page {
+    background-color: grey;
+}
+
+input:hover {
+    border: aqua solid 5px;
+}

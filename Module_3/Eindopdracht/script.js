@@ -2,6 +2,7 @@ const addBtn = document.querySelector("button");
 const input = document.querySelector("#description");
 
 //Nieuwe posts toevoegen
+
 addBtn.addEventListener("click", postTasks);
 
 //Input POST omzetten naar JSON
