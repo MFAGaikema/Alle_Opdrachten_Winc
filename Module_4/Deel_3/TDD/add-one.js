@@ -4,20 +4,8 @@ const addOne = (numbers) => {
     })
 }
 
+<<<<<<< HEAD
 module.exports = addOne;
-
-
-
-
-// npm install --save-dev jest-extended (edited) 
-// 1:10
-// module.exports = {
-//   setupFilesAfterEnv: ["jest-extended"],
-// };
-
-
-
-
-
-// 1:10
-// jest.config.js
+=======
+module.exports = addOne;
+>>>>>>> 08ccc40... Module 4 bijgewerkt

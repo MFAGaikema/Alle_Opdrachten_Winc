@@ -1,0 +1,16 @@
+{
+  "name": "TDD_Password",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "jest-extended": "^0.11.5"
+  }
+}

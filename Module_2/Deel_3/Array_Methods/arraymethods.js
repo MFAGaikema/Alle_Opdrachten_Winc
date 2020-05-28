@@ -51,7 +51,7 @@ const total = item.reduce((currentTotal, item) => {
 
 console.log(total);
 
-//includes() method (kijkt of een getal overeenkomt met een item in de array)
+//includes() method (kijkt of een parameter overeenkomt met een item in de array)
 const array = [1, 2, 3, 4, 5];
 const includesTwo = array.includes(2);
 
