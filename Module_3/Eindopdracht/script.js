@@ -63,6 +63,7 @@ const callData = async () => {
     //Status done => true
     checkBtn.addEventListener("click", () => {
       checkBtn.style.filter = "none";
+      li.style.textDecoration = "line-through";
       const put = `https://wincacademydatabase.firebaseio.com/Marijn/Tasks/${id}.json`;
       allTasks(put, {
         method: "PUT",
@@ -70,9 +71,9 @@ const callData = async () => {
         body: JSON.stringify({ description: task.description, done: true }),
       });
     });
-    if (task.done == true) {
-      li.style.textDecoration = "line-through";
-    }
+    // if (task.done == true) {
+    //   ;
+    // }
 
     //Taken verwijderen
     const trash = document.createElement("img");

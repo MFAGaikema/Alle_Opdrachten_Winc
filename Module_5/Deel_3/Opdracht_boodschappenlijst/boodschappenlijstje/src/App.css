@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.grocery-list,
+.shopping-cart {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}

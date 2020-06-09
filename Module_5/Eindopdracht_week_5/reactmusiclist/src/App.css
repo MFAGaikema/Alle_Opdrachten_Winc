@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+.header {
+  border-bottom: 2px solid black;
+  padding: 5px;
+  background-color: grey;
+}
+
+.home {
+  border-bottom: 1px solid black;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  background-color: black;
+}
+
+/* input: */
+.music-item,
+.inputform {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.inputform,
+.sort {
+  margin-bottom: 5px;
+}
+
+.input,
+p {
+  width: 25%;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: white;
+}
+
+select {
+  color: grey;
+}
+
+::placeholder {
+  color: grey;
+}
+
+.genre {
+  width: 212px;
+}
+
+.rating {
+  width: 65px;
+}
+
+p.rating {
+  width: 53px;
+}
+
+.empty {
+  display: none;
+}
+
+option {
+  color: black;
+}
+
+.delbtn,
+.submitbtn {
+  margin-left: 10px;
+  width: 80px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.delbtn {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+}
+
+/* navigatie: */
+.link {
+  display: inline;
+  margin: 5px 10px;
+}
+
+.about {
+  width: 100%;
+  background-color: black;
+}
+
+.about h1 {
+  color: white;
+}
+
+.about-content {
+  border: none;
+  width: 100%;
+  color: white;
+  background-color: black;
+}
+
+p.about-content {
+  padding: 0;
+  padding-bottom: 5px;
+}
