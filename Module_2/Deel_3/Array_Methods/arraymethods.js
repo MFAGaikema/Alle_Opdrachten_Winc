@@ -45,7 +45,7 @@ const hasInexpensiveItems = items.every((item) => {
 console.log(hasInexpensiveItems);
 
 //reduce() method (telt alles bij elkaar op)
-const total = item.reduce((currentTotal, item) => {
+const total = items.reduce((currentTotal, item) => {
   return item.price + currentTotal;
 }, 0); //is de startwaarde van currentTotal, dus de eerte keer heb je 0 + item.price[0], de tweede keer heb je item.price[0] + item.price[1]
 

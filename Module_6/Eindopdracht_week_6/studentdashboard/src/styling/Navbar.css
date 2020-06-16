@@ -1,0 +1,21 @@
+ul {
+  margin-bottom: 15px;
+}
+
+li {
+  display: inline;
+  padding: 5px 20px;
+  margin: -0.5px;
+  border: 1px solid grey;
+  background-color: darkgrey;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: black;
+  font-weight: bold;
+}

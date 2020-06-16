@@ -1,0 +1,12 @@
+select {
+  color: grey;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.empty {
+  display: none;
+}
+
+option {
+  color: black;
+}
