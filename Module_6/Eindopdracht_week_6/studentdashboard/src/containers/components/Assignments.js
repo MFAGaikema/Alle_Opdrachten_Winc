@@ -12,12 +12,12 @@ export class assignments extends Component {
         labels: studentAssignments("SCRUM", "Wie ben je?"),
         datasets: [
           {
-            label: "Grades for fun",
+            label: "Hoe leuk vond je deze opdracht?",
             data: [],
             backgroundColor: "#4287f5",
           },
           {
-            label: "Grades for difficulty",
+            label: "Hoe moeilijk vond je deze opdracht?",
             data: [],
             backgroundColor: "#f01118",
           },
@@ -29,8 +29,8 @@ export class assignments extends Component {
   handleChange = (e) => {
     const assignments = e.target.value;
     const newState = Object.assign({}, this.state);
-    newState.chartData.datasets[0].data = studentAssignments(assignments, "Hoe moeilijk vond je deze opdracht?");
-    newState.chartData.datasets[1].data = studentAssignments(assignments, "Hoe leuk vond je deze opdracht?");
+    newState.chartData.datasets[0].data = studentAssignments(assignments, "Hoe leuk vond je deze opdracht?");
+    newState.chartData.datasets[1].data = studentAssignments(assignments, "Hoe moeilijk vond je deze opdracht?");
     this.setState(newState);
   }
 

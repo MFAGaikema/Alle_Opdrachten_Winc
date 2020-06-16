@@ -42,12 +42,12 @@ const Child = () => {
     ),
     datasets: [
       {
-        label: "Grades for fun",
+        label: "Hoe leuk vond je deze opdracht?",
         data: getStudentData(id, "Hoe leuk vond je deze opdracht?"),
         backgroundColor: "#4287f5",
       },
       {
-        label: "Grades for difficulty",
+        label: "Hoe moeilijk vond je deze opdracht?",
         data: getStudentData(id, "Hoe moeilijk vond je deze opdracht?"),
         backgroundColor: "#f01118",
       },
