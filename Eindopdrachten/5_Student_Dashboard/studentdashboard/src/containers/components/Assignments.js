@@ -39,7 +39,7 @@ export class assignments extends Component {
       <div>
         <p>Dit zijn de resultaten per opdracht, in de grafiek is te zien welke cijfers iedere student heeft gegeven.</p>
         <select value={this.state.data} onChange={this.handleChange}>
-          <option className="Empty" value="">Kies een opdracht:</option>
+          <option className="empty" value="">Kies een opdracht:</option>
           {filterAssignments.map(item => 
             <option onClick={this.handleClick}key={item} value={item}>{item}</option>
         )}
